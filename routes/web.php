@@ -17,7 +17,13 @@ Route::get('/', function () {
 
 // 樣板引擎1 127.0.0.1:8000/product
 // views資料夾下的product資料夾下的pro.blade.php
+//Route::get('product', function () {
+//    return view('product.pro');
+//});
+
+// 樣板引擎1 127.0.0.1:8000/product
+// views資料夾下的product資料夾下的pro.blade.php
 Route::get('product', function () {
-    return view('product.pro');
+    return view('layout.layout');
 });
 
