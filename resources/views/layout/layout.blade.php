@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="layoutcustom.css">
+        <link rel="stylesheet" href="css/layoutcustom.css">
         <title>Laravel</title>
 
-        <!-- Fonts 可以砍掉這個-->
+        
     
         <!-- Styles -->
         <style>
