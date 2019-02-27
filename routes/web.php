@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//我是路由
+
 // 樣板引擎1 127.0.0.1:8000/product
 // views資料夾下的product資料夾下的pro.blade.php
 //Route::get('product', function () {
@@ -23,7 +25,8 @@ Route::get('/', function () {
 
 // 樣板引擎1 127.0.0.1:8000/product
 // views資料夾下的product資料夾下的pro.blade.php
+
 Route::get('product', function () {
-    return view('layout.layout');
+    return view('layout.master');
 });
 
