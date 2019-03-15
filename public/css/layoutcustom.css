@@ -2,3 +2,9 @@ body {
     background-color: #fff;
     background-image: url('../images/rawpixel-593607-unsplash.jpg');
 }
+
+footer {
+    background: linear-gradient(left top, ff334d, #fff);
+    height: 50px;
+
+}
